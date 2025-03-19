@@ -6,6 +6,41 @@
 -   I -> INTERFACE SEGMENTED PRINCIPLE.
 -   D -> DEPENDENCY INJECTION PRINCIPLE.
 
+- Advantages:
+    - Avoid duplicate code
+    - Reduce complexity
+    - Easy to maintain
+    - Easy to understand
+    - Flexible software
+
 
 ---------------- SINGLE RESPONSIBILITY PRINCIPLE -----------------
 - A Class should have only 1 reason to change.
+- It should have only 1 responsibility.
+- This means that a class should only be responsible for one functionality.
+- If a class handles multiple concerns, it violates SRP and can lead to maintenance issues.
+
+
+---------------- OPEN/ CLOSED PRINCIPLE --------------------------
+- A class should be open for extension but closed for modification.
+- This means that we should be able to add new functionality without modifying existing code.
+- Instead of changing existing classes, we should extend them (e.g., using inheritance or interfaces).
+
+
+---------------- LISKOV SUBSTITUTION PRINCIPLE --------------------------
+- If Class B is a subclass of Class A, then we should be able to replace an object of Class A with an object of B without breaking the behaviour of the program.
+- Child class should extend the capability of parent class not narrow it down.
+- If a subclass violates this principle, it means inheritance is misused and polymorphism is broken.
+
+
+----------------- INTERFACE SEGMENTED PRINCIPLE ------------------------
+- Interfaces should be such that, the client should not implement unnecessary methods they do not need.
+- This means a class should not be forced to implement methods it doesn't need.
+- Instead of having one large interface, we should split it into smaller, more specific interfaces.
+
+
+----------------- DEPENDENCY INJECTION PRINCIPLE ------------------------
+- Classes should depend on interfaces rather than concrete classes.
+- High-level classes (business logic) should not directly depend on low-level classes (implementation details).
+- Instead, both should depend on abstractions (interfaces or abstract classes).
+- This enables flexibility, loose coupling, and better testability.
