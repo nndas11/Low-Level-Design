@@ -1,0 +1,96 @@
+PayPal Interview Experience – Technical Round (3-4 Years Experience, 45 mins)
+
+Core Java & Data Structures -
+Explain the internal working of ConcurrentHashMap. How does it achieve thread safety, and what are its performance trade-offs?
+Describe the differences between WeakHashMap and HashMap. When would you use each?
+Given a large dataset (millions of records), how would you efficiently search for duplicate transactions?
+How does the Java Memory Model impact multi-threaded applications?
+Design an in-memory key-value store that supports TTL (time to live) for entries.
+
+Multithreading & Concurrency
+How would you design a thread pool from scratch?
+Explain how Java handles false sharing in multi-core processors.
+What are the main drawbacks of using synchronized methods? How does ReentrantLock improve performance?
+Implement a multi-threaded rate limiter that handles API requests.
+How would you handle thread starvation in high-throughput applications?
+
+Spring Boot & Microservices
+How does Spring Boot’s auto-configuration determine which beans to load?
+What is Circuit Breaker, and how does it prevent cascading failures in microservices?
+How would you handle blue-green deployments in a Spring Boot microservices setup?
+Explain Eventual Consistency. How would you ensure data consistency across distributed services?
+Implement a rate-limited API in Spring Boot that handles 10,000 requests per second.
+
+APIs & RESTful Services
+How would you design an API Gateway to handle dynamic routing and security policies?
+Explain the challenges of handling pagination in REST APIs for massive datasets.
+How would you manage API timeouts and retries in a distributed system?
+What’s the best way to implement WebSockets in a fintech application?
+How would you enforce idempotency in payment APIs?
+
+System Design Basics
+Design a high-throughput, low-latency order-matching system for a stock exchange.
+How would you ensure data integrity in a multi-region database setup?
+Explain Leader Election. How would you implement it in a microservices-based system?
+What are the trade-offs between CQRS and traditional CRUD-based systems?
+How does a Distributed Message Queue (like Kafka) handle backpressure?
+
+tip: They look for scalability thinking, real world problem solving, and strong system design intuition. If you’re aiming for backend-heavy fintech roles, focus on concurrency, API optimizations, and microservices resilience patterns. And don’t forget system design
+
+--------------------------------------
+
+
+📌 Core Java & OOP Concepts
+Identify OOP principles in given code snippets.
+Explain SOLID principles with clear examples.
+Difference between Abstract Class and Interface.
+BASE vs ACID database properties explained.
+Can Java access modifiers be changed at runtime? How?
+Why isn't Java 100% object-oriented?
+Immutable classes in Java: How and why?
+Pass by value or reference in Java?
+
+📌 Multithreading & Concurrency
+What does the volatile keyword do in Java?
+Implementation of synchronized blocks.
+Differences between multithreading and concurrency.
+Single-core vs multi-core CPU: Can we achieve multithreading?
+Is it possible to disable Garbage Collector in Java?
+
+📌 Java Collections & Memory Management
+HashMap internals: Collision handling and chaining.
+How does Java memory management and Garbage Collection work?
+Analyze and debug OutOfMemoryError scenarios.
+Heap dump analysis techniques.
+ArrayList vs LinkedList: When and why?
+Fail-safe vs fail-fast iterators explained.
+Collections hierarchy and why Map is separate.
+Comparable vs Comparator: usage differences.
+
+📌 Spring Boot & Microservices
+Spring Boot vs Spring framework: Which and why?
+Important Spring Boot annotations (@Autowired, @Controller, @Service, etc.).
+Spring Boot Actuator for monitoring applications.
+Handling exceptions efficiently in Spring Boot (server-side & client-side).
+Microservices architecture: Principles, best practices, and use-cases.
+RESTful API design practices: HTTP methods (GET, POST, PUT, etc.).
+
+📌 Database & System Design
+How to integrate SQL and NoSQL databases within a microservice.
+Database normalization concepts.
+Immutable Strings in Java: Advantages and use-cases.
+
+📌 Advanced Java & Integration
+Dependency Injection explained.
+Different bean scopes in Spring.
+JWT authentication & encryption (RSA).
+Integrating AWS and GCP in current projects.
+Redis integration in microservices.
+
+📌 Additional Interview Favorites
+Overloading vs Overriding methods.
+Can we override private and static methods?
+Synchronization vs concurrent collections.
+How threads communicate using volatile.
+Checked vs unchecked exceptions.
+Diamond problem in Java and multiple inheritance challenges.
